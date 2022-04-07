@@ -1,0 +1,48 @@
+/* Tablet +Mobile */
+@media only screen and ( min-width : 63.9375em){
+
+}
+
+/* Tablet */
+@media (max-width :46.25em) and ( min-width : 63.9375em) {
+
+}
+
+/* Mobile */
+@media only screen and (max-width : 46.1875em){
+    .icon-bar-mobile{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .mywork-imgs{
+        min-width: 100%;
+    }
+    .list-img-one,.list-img-two{
+        flex-direction: column;
+        display: flex;
+
+    }
+    .image{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    .about-info{
+        display: flex;
+        flex-direction: column  ;
+    }
+    .nav-portfolio{
+        display: none;
+    }
+    .show-btn{
+        display: none;
+    }
+    .portfolio-text{
+        font-size: 19px;
+    }
+    .info-input input{
+        max-width: 100%;
+    }
+}
